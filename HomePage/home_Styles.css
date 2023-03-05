@@ -1,0 +1,22 @@
+#title {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: green;
+}
+
+
+.main {
+    display: flex;
+    /* width: 50%; */
+    background-color: blueviolet;
+}
+
+.child { 
+    flex: 1, 2;
+    margin: 10px;
+}
+
+.child:first-child {
+    margin-right: 20px
+}

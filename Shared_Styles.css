@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.Navbar {
+    overflow: hidden;
+    background-color: aqua;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.Navbar_left {
+    float: left;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.Navbar_right {
+    float: right;
+    padding: 10px;
+    padding-right: 25px;
+}
